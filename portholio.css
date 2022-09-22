@@ -28,6 +28,15 @@ color: #2196F3;
     color:#000000;
 }
 
+.header-list{
+    display: flex;
+}
+.contakt-list{
+    display: flex;
+}
+.button-list{
+    display: flex;
+}
 .header-link{
     font-family: 'Roboto';
     font-style: normal;

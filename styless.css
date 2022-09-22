@@ -31,6 +31,10 @@ p {
     color: #2196F3;
 }
 
+.header-list{
+    display: flex;
+}
+
 .header-color {
     color: #000000;
 }
@@ -53,6 +57,7 @@ p {
 
 .contakt-list {
     list-style: none;
+    display: flex;
 }
 
 .contakt-link {
@@ -128,11 +133,12 @@ p {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #212121;
 
 }
-
+.attention-list{
+    display: flex;
+}
 .attention-item::before{
 background-image: url(../imeges/card\ bg.png);
 
@@ -166,7 +172,9 @@ background-image: url(../imeges/card\ bg.png);
     color: #212121;
 }
 
-
+.work-list{
+    display: flex;
+}
 /* <!-- наша команда --> */
 .team-title {
     font-family: 'Roboto';
@@ -179,6 +187,10 @@ background-image: url(../imeges/card\ bg.png);
 
     color: #212121;
 
+}
+
+.team-list{
+    display: flex;
 }
 
 .team-img {
